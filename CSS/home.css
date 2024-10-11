@@ -24,6 +24,9 @@ body {
 }
 
 .navbar-toggler {
+    position: fixed;
+    top: 1%;
+    right: 1%;
     min-width: 60px;
     border-color: white;
 }
