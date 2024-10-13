@@ -1,5 +1,6 @@
 body {
-    background-color: gray;
+    background-color: rgb(37, 45, 54);
+    color: azure;
 }
 
 .hero {
@@ -12,10 +13,9 @@ body {
     width: 100%;
 }
 
-.hero-video video
-{
-  min-width: 100%;
-  min-height: 100%;
+.hero-video video {
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .hero-text {
@@ -42,8 +42,19 @@ h2 {
 }
 
 .hero-photo {
-    width: 100%;
+    width: 100vw;
     height: 20vh;
     filter: grayscale(.5);
     object-fit: cover;
+}
+
+.body-content {
+    max-width: 75vw;
+}
+
+.contact-content {
+    padding-top: 2%;
+    font-size: 18px;
+    line-height: 2;
+    text-indent: 50px;
 }
