@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(37, 45, 54);
+    color: azure;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-video {
+    overflow: hidden;
+    height: 100dvh;
+    width: 100%;
+}
+
+.hero-video video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+h2 {
+    margin-bottom: 2%;
+}
+
+.contact-content, .social-media {
+    background-color: #343a40;
+    padding: 2vh;
+    font-size: 18px;
+    line-height: 2;
+    text-indent: 50px;
+    border-radius: 30px;
+}

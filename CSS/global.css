@@ -1,60 +1,25 @@
-body {
-    background-color: rgb(37, 45, 54);
-    color: azure;
+.navbar-toggler {
+    width: 85vw;
+    margin: auto;
+    border-radius: 0%;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
-.hero {
-    display: flex;
+.navbar-toggler:focus {
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
-.hero-video {
-    overflow: hidden;
-    height: 100dvh;
-    width: 100%;
+.custom-navbar {
+    width: fit-content;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 2vh;
+    margin-bottom:10vh;
 }
 
-.hero-video video {
-    min-width: 100%;
-    min-height: 100%;
-}
-
-.hero-text {
+.nav-text {
     text-align: center;
     color: white;
-}
-
-.navbar-toggler {
-    position: fixed;
-    top: 1%;
-    right: 1%;
-    min-width: 60px;
-    border-color: white;
-}
-
-h2 {
-    margin-bottom: 2%;
-}
-
-.hero-button {
-    width: auto;
-    min-width: 20%;
-    margin: 2%;
-}
-
-.hero-photo {
-    width: 100vw;
-    height: 20vh;
-    filter: grayscale(.5);
-    object-fit: cover;
-}
-
-.body-content {
-    max-width: 75vw;
-}
-
-.contact-content {
-    padding-top: 2%;
-    font-size: 18px;
-    line-height: 2;
-    text-indent: 50px;
 }
