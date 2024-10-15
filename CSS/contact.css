@@ -1,5 +1,4 @@
 body {
-    background-color: rgb(37, 45, 54);
     color: azure;
 }
 
@@ -18,8 +17,13 @@ body {
     min-height: 100%;
 }
 
-h2 {
-    margin-bottom: 2%;
+h1 {
+    align-items: center;
+}
+
+h5 {
+    margin-top: 1vh;
+    margin-bottom: 2vh;
 }
 
 .contact-content, .social-media {
@@ -29,4 +33,34 @@ h2 {
     line-height: 2;
     text-indent: 50px;
     border-radius: 30px;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 4vh;
+}
+
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.social-icons {
+    height: 3vh;
+    width: auto;
+    margin-right: 1vh;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+li {
+    margin-bottom: 1vh;
 }
